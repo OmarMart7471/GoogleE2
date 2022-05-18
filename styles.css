@@ -6,29 +6,34 @@
 /*Header*/
 header{
     display: grid;
-    grid-template-columns: 70% auto auto auto auto;
-    gap: 10px;
+    grid-template-columns: 83% 5% 5% 3% 3%;
+    gap: 2px;
     align-items: end;
 }
 
 .gmail{
-    background-color: aqua;
+    
     grid-column: 2;
+    justify-self: end;
 }
 
 .imagenes{
-    background-color: red;
+    
     grid-column: 3;
+    justify-self: end;
 }
 
 .gridcuadricula{
-    background-color: green;
+    
     grid-column: 4;
+    justify-self: end;
 }
 
 .gridprofile{
-    background-color: yellow;
+    
     grid-column: 5;
+    justify-self: end;
+    border-radius: 50%;
 }
 
 /*Imágenes*/
