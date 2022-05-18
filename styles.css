@@ -47,11 +47,20 @@ header{
     height: 30px;
 }
 
+/*Header fin*/
+
 .logo{
     width: 290px;
     height: 150px;
 }
 
+/*Main*/
+
+main{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+}
 
 .container-mx {
     background-color: #f1f1f1;
