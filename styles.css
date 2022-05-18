@@ -2,88 +2,124 @@
     margin: 0;
     padding: 0;
 }
-
-/*Header*/
-header{
-    display: grid;
-    grid-template-columns: 83% 5% 5% 3% 3%;
-    gap: 2px;
-    align-items: end;
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.gmail{
-    
-    grid-column: 2;
-    justify-self: end;
-}
-
-.imagenes{
-    
-    grid-column: 3;
-    justify-self: end;
-}
-
-.gridcuadricula{
-    
-    grid-column: 4;
-    justify-self: end;
-}
-
-.gridprofile{
-    
-    grid-column: 5;
-    justify-self: end;
-    border-radius: 50%;
-}
-
-/*Imágenes*/
-.cuadricula{
-    width: 30px;
+button{
+    border: none;
+    border-radius: 5px;
     height: 30px;
 }
-
-.profile{
-    width: 30px;
+input{
+    width: 100%;
     height: 30px;
+    margin: 0 5px;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+a:link{
+    text-decoration: none;
+}
+.hv-lan {
+    color: blue;
+}
+a:visited{
+    color:black;
+    text-decoration: none;
+}
+a.hv-underline {
+    text-decoration: underline;
+}
+a.hv-color {
+    color: blue;
+}
+.centrar{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.barra-busqueda{
+    width: 90%;
+    margin-top: 15px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px lightslategray solid;
+    border-radius: 25px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-item{
+    margin: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 50px;
+}
+#logo {
+    height: 92px;
+    width: 272px;
 }
 
-/*Header fin*/
-
-.logo{
-    width: 290px;
-    height: 150px;
-}
-
-/*Main*/
-
-main{
+.icon{
     display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    color: grey;
 }
 
+#opciones-busqueda{
+    margin-top: 15px;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
 .container-mx {
-    background-color: #f1f1f1;
-    height: 20%;
+    color: #70757a;
+    padding: 15px 30px;
+    margin: 0;
+    border-bottom: 1px solid lightslategray;
+    
 }
 .container-1 {
-    background-color: #f1f1f1;
     display: grid;
-    grid-template-columns: 60% 40%;
-   
+    grid-template-columns: 60% 40%; 
+    height: 50px;
+    align-items: center; 
 }
 .bloqueizq {
     display: flex;
     padding-left: 5%;
     padding-right: 5%;
     justify-content: space-around;
+    color: #70757a;
 }
 .bloqueder {
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
+    color: #70757a;
     justify-content: space-around;
 }
-
-
-
+.footer {
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+a.color {
+    color: #70757a;
+}
