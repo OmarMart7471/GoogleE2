@@ -50,17 +50,67 @@ header{
 /*Header fin*/
 
 .logo{
-    width: 290px;
-    height: 150px;
+    width: 530px;
+    height: 200px;
 }
 
 /*Main*/
 
 main{
     display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 200px 
+                        200px 
+                        250px;
+    grid-template-columns: 500px 535.7px 500px;
+    gap: 2px;
 }
+
+.element5{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-content: center;
+}
+
+.element8{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border: 1px solid #020202;
+}
+
+.inputgrid{
+    display: grid;
+    grid-template-columns: 178.56px 178.56px 178.56px;
+    grid-template-rows: 83.33px 83.33px 83.33px;
+}
+
+.elementInput{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 1px solid #020202;
+}
+
+/*
+.logo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2;
+    background-color: aqua;
+
+}
+
+.btnInputs{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 3;
+    align-items: center;
+    background-color: red;
+}*/
 
 .container-mx {
     background-color: #f1f1f1;
