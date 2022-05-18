@@ -2,20 +2,74 @@
     margin: 0;
     padding: 0;
 }
+
+/*Header*/
+header{
+    display: grid;
+    grid-template-columns: 70% auto auto auto auto;
+    gap: 10px;
+    align-items: end;
+}
+
+.gmail{
+    background-color: aqua;
+    grid-column: 2;
+}
+
+.imagenes{
+    background-color: red;
+    grid-column: 3;
+}
+
+.gridcuadricula{
+    background-color: green;
+    grid-column: 4;
+}
+
+.gridprofile{
+    background-color: yellow;
+    grid-column: 5;
+}
+
+/*Imágenes*/
+.cuadricula{
+    width: 30px;
+    height: 30px;
+}
+
+.profile{
+    width: 30px;
+    height: 30px;
+}
+
+.logo{
+    width: 290px;
+    height: 150px;
+}
+
+
 .container-mx {
     background-color: #f1f1f1;
+    height: 20%;
 }
 .container-1 {
     background-color: #f1f1f1;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
    
 }
 .bloqueizq {
     display: flex;
-    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-around;
 }
 .bloqueder {
-    width: 40%;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-around;
 }
+
+
+
