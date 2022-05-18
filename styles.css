@@ -2,3 +2,20 @@
     margin: 0;
     padding: 0;
 }
+.container-mx {
+    background-color: #f1f1f1;
+}
+.container-1 {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.bloqueizq {
+    display: flex;
+    width: 60%;
+}
+.bloqueder {
+    width: 40%;
+}
