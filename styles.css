@@ -2,138 +2,147 @@
     margin: 0;
     padding: 0;
 }
-
-/*Header*/
-header{
-    display: grid;
-    grid-template-columns: 83% 5% 5% 3% 3%;
-    gap: 2px;
-    align-items: end;
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.gmail{
-    
-    grid-column: 2;
-    justify-self: end;
-}
-
-.imagenes{
-    
-    grid-column: 3;
-    justify-self: end;
-}
-
-.gridcuadricula{
-    
-    grid-column: 4;
-    justify-self: end;
-}
-
-.gridprofile{
-    
-    grid-column: 5;
-    justify-self: end;
-    border-radius: 50%;
-}
-
-/*Imágenes*/
-.cuadricula{
-    width: 30px;
+button{
+    border: none;
+    border-radius: 5px;
     height: 30px;
 }
-
-.profile{
-    width: 30px;
+input{
+    width: 100%;
     height: 30px;
+    margin: 0 5px;
+    border: none;
+}
+input:focus{
+    outline: none;
 }
 
-/*Header fin*/
-
-.logo{
-    width: 530px;
-    height: 200px;
+a:link{
+    text-decoration: none;
 }
-
-/*Main*/
-
-main{
-    display: grid;
-    grid-template-rows: 200px 
-                        200px 
-                        250px;
-    grid-template-columns: 500px 535.7px 500px;
-    gap: 2px;
+.hv-lan {
+    color: blue;
 }
-
-.element5{
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    align-content: center;
+a:visited{
+    color:black;
+    text-decoration: none;
 }
-
-.element8{
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    border: 1px solid #020202;
+a.hv-underline {
+    text-decoration: underline;
 }
-
-.inputgrid{
-    display: grid;
-    grid-template-columns: 178.56px 178.56px 178.56px;
-    grid-template-rows: 83.33px 83.33px 83.33px;
+a.hv-color {
+    color: blue;
 }
-
-.elementInput{
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    border: 1px solid #020202;
-}
-
-/*
-.logo{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 2;
-    background-color: aqua;
-
-}
-
-.btnInputs{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 3;
+.centrar{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    background-color: red;
-}*/
+}
+.barra-busqueda{
+    width: 90%;
+    margin-top: 15px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px lightslategray solid;
+    border-radius: 25px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-item{
+    margin: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.material-icons{
+    margin: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 50px;
+}
+
+#logo {
+    height: 92px;
+    width: 272px;
+}
+
+.icon{
+    display: grid;
+    align-content: center;
+    color: grey;
+}
+
+#opciones-busqueda{
+    margin-top: 15px;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
 
 .container-mx {
-    background-color: #f1f1f1;
-    height: 20%;
+    color: #70757a;
+    padding: 15px 30px;
+    margin: 0;
+    border-bottom: 1px solid lightslategray;
+    
 }
 .container-1 {
-    background-color: #f1f1f1;
     display: grid;
-    grid-template-columns: 60% 40%;
-   
+    grid-template-columns: 60% 40%; 
+    height: 50px;
+    align-items: center; 
 }
 .bloqueizq {
     display: flex;
     padding-left: 5%;
     padding-right: 5%;
     justify-content: space-around;
+    color: #70757a;
 }
 .bloqueder {
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
+    color: #70757a;
     justify-content: space-around;
 }
+.footer {
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
 
-
-
+a.color {
+    color: #70757a;
+}
