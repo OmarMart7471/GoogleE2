@@ -36,6 +36,9 @@ a:visited{
 a.hv-underline {
     text-decoration: underline;
 }
+.menu-item:hover {
+    text-decoration: underline;
+}
 a.hv-color {
     color: blue;
 }
@@ -67,7 +70,7 @@ a.hv-color {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
+    height: 40px;
     border-radius: 50px;
 }
 #logo {
@@ -75,15 +78,24 @@ a.hv-color {
     width: 272px;
 }
 
-.icon{
+.icon {
     display: grid;
     align-content: center;
     color: grey;
 }
-
-#opciones-busqueda{
-    margin-top: 15px;
-    width: 270px;
+#search {
+    width: 170px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+}
+#lucky {
+    width: 190px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+}
+#search-options {
+    padding-top: 18px;
+    width: 340px;
     display: flex;
     justify-content: space-between;
 }
@@ -91,7 +103,7 @@ a.hv-color {
     color: #70757a;
     padding: 15px 30px;
     margin: 0;
-    border-bottom: 1px solid lightslategray;
+    border-bottom: 1px solid rgb(188, 189, 190);
     
 }
 .container-1 {
@@ -122,4 +134,13 @@ a.hv-color {
 }
 a.color {
     color: #70757a;
+}
+#search:hover {
+    border: 2px solid #e1e3e5;
+}
+#lucky:hover {
+    border: 2px solid #e1e3e5;
+}
+.container-lan {
+    padding-top: 40px;
 }
